@@ -1,0 +1,21 @@
+.consent-delete-button{
+    background: rgb(210, 43, 43);
+    color: white;
+    border: 1px solid rgba(210, 43, 43, 1);
+    border-radius: 10px;
+    padding: 4px 20px;
+    display: flex;
+}
+.consent-cancel-button{
+    color: rgb(210, 43, 43);
+    background: none;
+    border: 1px solid rgba(210, 43, 43, 1);
+    border-radius: 10px;
+    padding: 4px 20px;
+    display: flex;
+}
+.consent-modal-for-app > .modal-dialog > .modal-content{
+    width: 70% !important;
+    left: 12% !important;
+    
+}

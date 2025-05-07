@@ -1,0 +1,40 @@
+.modal-content{
+    padding: 10px 20px;
+    width: 90% !important;
+}
+.cross-button{
+    /* background: #D22B2B1A; */
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.178), rgba(0, 0, 255, 0.318), rgba(255, 166, 0, 0.293));
+    border: none;
+    height: 25px;
+    width: 24px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: linear-gradient(90deg, black, blue, orange);;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card{
+    margin: 10px;
+    border-radius: 13px;
+    padding: 10px;
+}
+.table-row > th{
+    /* width: 20%; */
+    font-size: 15px;
+}
+.table-row{
+    border-bottom: 1px solid rgb(0 0 0 / 18%) !important;
+}
+.submit-button{
+    background: linear-gradient(90deg, black, blue, orange);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}

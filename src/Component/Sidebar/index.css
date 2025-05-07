@@ -1,0 +1,32 @@
+.sidebar-header{
+    padding: 10px;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-main{
+    width: 250px !important;
+    min-width: 250px !important;
+}
+.sidebar-header-collapse{
+    /* padding: 10px; */
+    /* height: 10vh; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.menu-collapsed{
+    padding: 0px 10px;
+}
+.menu-not-collapsed{
+    padding: 0px 10px;
+}
+
+.this-is-menuitem > a {
+    justify-content: center;
+    padding-left: 28px;
+}
